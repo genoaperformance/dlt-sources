@@ -108,7 +108,7 @@ gcsfs = {version = ">=2022.4.0"}
 
 
 [tool.poetry.group.scrapy.dependencies]
-scrapy = "^2.11.0"
+scrapy = "^2.11.2"
 twisted = "24.7.0rc1"
 
 [build-system]
