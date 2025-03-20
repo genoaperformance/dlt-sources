@@ -2454,14 +2454,14 @@ idna = ">=2.5"
 
 [[package]]
 name = "idna"
-version = "3.4"
+version = "3.7"
 description = "Internationalized Domain Names in Applications (IDNA)"
 optional = false
 python-versions = ">=3.5"
 groups = ["main", "airtable", "asana_dlt", "dev", "dltpure", "facebook_ads", "filesystem", "google_ads", "google_analytics", "google_sheets", "salesforce", "scrapy", "stripe_analytics", "unstructured_data", "unstructured_data_lint"]
 files = [
-    {file = "idna-3.4-py3-none-any.whl", hash = "sha256:90b77e79eaa3eba6de819a0c442c0b4ceefc341a7a2ab77d7562bf49f425c5c2"},
-    {file = "idna-3.4.tar.gz", hash = "sha256:814f528e8dead7d329833b91c5faa87d60bf71824cd12a7530b5526063d02cb4"},
+    {file = "idna-3.7-py3-none-any.whl", hash = "sha256:82fee1fc78add43492d3a1898bfa6d8a904cc97d8427f683ed8e798d07761aa0"},
+    {file = "idna-3.7.tar.gz", hash = "sha256:028ff3aadf0609c1fd278d8ea3089299412a7a8b9bd005dd08b9f8285bcb5cfc"},
 ]
 
 [[package]]
@@ -6900,4 +6900,4 @@ cffi = ["cffi (>=1.11)"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.8.1,<3.13"
-content-hash = "e596320a5a060e91d765981c6f9af4c74235645931a3dc45fe078a025829531e"
+content-hash = "565cac5cf7decd2ed5b5fe94de1cdd8c786e5e119a342a46b5b812dcebf633b5"
