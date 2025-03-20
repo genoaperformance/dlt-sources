@@ -1,6 +1,6 @@
 import dlt
 
-from dlt_sources.databricks import databricks_source
+from databricks import databricks_source
 
 def ingest_databricks(
     config_share_file: str,
