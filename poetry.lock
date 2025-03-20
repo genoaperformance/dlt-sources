@@ -4724,14 +4724,14 @@ test = ["polars", "pytest", "pytz"]
 
 [[package]]
 name = "pymysql"
-version = "1.1.0"
+version = "1.1.1"
 description = "Pure Python MySQL Driver"
 optional = false
 python-versions = ">=3.7"
 groups = ["sql_database"]
 files = [
-    {file = "PyMySQL-1.1.0-py3-none-any.whl", hash = "sha256:8969ec6d763c856f7073c4c64662882675702efcb114b4bcbb955aea3a069fa7"},
-    {file = "PyMySQL-1.1.0.tar.gz", hash = "sha256:4f13a7df8bf36a51e81dd9f3605fede45a4878fe02f9236349fd82a3f0612f96"},
+    {file = "PyMySQL-1.1.1-py3-none-any.whl", hash = "sha256:4de15da4c61dc132f4fb9ab763063e693d521a80fd0e87943b9a453dd4c19d6c"},
+    {file = "pymysql-1.1.1.tar.gz", hash = "sha256:e127611aaf2b417403c60bf4dc570124aeb4a57f5f37b8e95ae399a42f904cd0"},
 ]
 
 [package.extras]
@@ -6900,4 +6900,4 @@ cffi = ["cffi (>=1.11)"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.8.1,<3.13"
-content-hash = "1f530920b601a0c79bad710aa4cceb266cfae8616c0103e85bc2f47d31cbb52b"
+content-hash = "e596320a5a060e91d765981c6f9af4c74235645931a3dc45fe078a025829531e"
