@@ -3,15 +3,15 @@ import dlt
 from databricks import databricks_source
 
 def ingest_databricks(
-    config_share_file: str,
-    table: str
+    table: str,
+    config_share_file: str = "./databricks/open-datasets.share"
 ):
     
     try:
 
         dlt_pipeline = dlt.pipeline(
-            pipeline_name="brasilprev-databricks",
-            destination="postgres",
+            pipeline_name="sample-databricks",
+            destination="duckdb",
             dataset_name="databricks",
             progress="log"
         )
@@ -35,4 +35,4 @@ def ingest_databricks(
         raise e
     
 if __name__ == "__main__":
-    ingest_databricks()
+    ingest_databricks(table="COVID_19_NYT")
