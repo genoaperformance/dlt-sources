@@ -35,4 +35,4 @@ def ingest_databricks(
         raise e
     
 if __name__ == "__main__":
-    ingest_databricks()
+    ingest_databricks(table="COVID_19_NYT")
