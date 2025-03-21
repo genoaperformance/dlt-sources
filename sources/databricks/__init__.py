@@ -11,8 +11,8 @@ from delta_sharing import SharingClient, load_as_pandas
 @dlt.source(name="databricks", max_table_nesting=2)
 def databricks_source(
     config_share_file: str,
-    date_column: str,
-    execution_date: None,
+    date_column: str|None = None,
+    execution_date: None = None,
     **kwargs
 ) -> Iterable[DltResource]:
     
